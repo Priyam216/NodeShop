@@ -1,15 +1,15 @@
-__**# Shop App**__
+# Shop App
 <br>
 This is a web application built with Node.js , express.js and MongoDB, designed to serve as an online shop platform.
 
-**# Features**
+# Features
 <br>
   User Authentication: Allows users to sign up, log in, and manage their accounts.
   Product Management: Enables adding, editing, and deleting products.
   Shopping Cart: Provides a cart functionality for users to add and manage items.
   Order Processing: Allows users to place orders and tracks order history.
 
-**# Technologies Used**
+# Technologies Used
 <br>
   Node.js: JavaScript runtime environment
   Express.js: Web application framework for Node.js
@@ -17,17 +17,17 @@ This is a web application built with Node.js , express.js and MongoDB, designed 
   Mongoose: MongoDB object modeling for Node.js
   (Add any additional tools or libraries you used)
   
-**# Getting Started
-# Prerequisites**
+# Getting Started
+# Prerequisites
 <br>
   Node.js and npm installed
   MongoDB installed or access to a MongoDB database
   
-**# Installation**
+# Installation
 <br>
-  Clone the repository then Install dependencies using **npm install**
-  Create a **.env** file and add necessary environment variables. (Refer to **.env_sample** for reference)
-_ ** Use your own MongoDB URL, gmail id and password api key to setup in the .env folder created by you.**_
+  Clone the repository then Install dependencies using **npm install
+  Create a ***(.env)*** file and add necessary environment variables. (Refer to **.env_sample** for reference)
+** Use your own MongoDB URL, gmail id and password api key to setup in the .env folder created by you.**
 
 
 **More info about the app**
