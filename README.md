@@ -5,17 +5,22 @@ This is a web application built with Node.js , express.js and MongoDB, designed 
 # Features
 <br>
   User Authentication: Allows users to sign up, log in, and manage their accounts.
+  <br>
   Product Management: Enables adding, editing, and deleting products.
+  <br>
   Shopping Cart: Provides a cart functionality for users to add and manage items.
+  <br>
   Order Processing: Allows users to place orders and tracks order history.
 
 # Technologies Used
 <br>
   Node.js: JavaScript runtime environment
+  <br>
   Express.js: Web application framework for Node.js
+  <br>
   MongoDB: NoSQL database for data storage
+  <br>
   Mongoose: MongoDB object modeling for Node.js
-  (Add any additional tools or libraries you used)
   
 # Getting Started
 # Prerequisites
