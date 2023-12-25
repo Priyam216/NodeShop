@@ -37,5 +37,10 @@ Explore all the functionalities that a shopping app provides as an customer as w
 
 # Screenshots from app
 
+![image](https://github.com/Priyam216/NodeShop/assets/120257602/7111fe4a-872c-43ec-ab46-b2a0174035d8)
 ![image](https://github.com/Priyam216/NodeShop/assets/120257602/ee65731a-1eaa-413d-9c6e-fcb1b37a299b)
+![image](https://github.com/Priyam216/NodeShop/assets/120257602/ac56fd1b-02c0-4b13-874c-05d26c727a7c)
+![image](https://github.com/Priyam216/NodeShop/assets/120257602/2f9b8805-aa72-4265-ac3d-adc304d1bf57)
+
+
 
