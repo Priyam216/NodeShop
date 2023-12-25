@@ -34,3 +34,8 @@ This is a web application built with Node.js , express.js and MongoDB, designed 
 <br>
 The app was created by Priyamvad Singh to demonstrate the full workflow of the backend using Node.js in a shop app You can add your custom products as a admin which will be then stored in mongoDB database and you can also delete them. 
 Explore all the functionalities that a shopping app provides as an customer as well as an admin.
+
+# Screenshots from app
+
+![image](https://github.com/Priyam216/NodeShop/assets/120257602/ee65731a-1eaa-413d-9c6e-fcb1b37a299b)
+
