@@ -11,7 +11,7 @@ const multer = require('multer');
 const { v4: uuidv4 } = require('uuid');
 const helmet =require('helmet');
 const compression =require('compression');
-const morgan =require('morgan');
+//const morgan =require('morgan'); //for logs
 
 const errorController = require('./controllers/error');
 const User = require('./models/user');
@@ -52,14 +52,14 @@ const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
 const authRoutes = require('./routes/auth');
 
-const accessLogStram = fs.createWriteStream(
-  path.join(__dirname,'access.log'),
-  {flags:'a'}
-);
+//const accessLogStram = fs.createWriteStream(
+//  path.join(__dirname,'access.log'),
+//  {flags:'a'}
+//);
 
 app.use(helmet());
 app.use(compression());
-app.use(morgan('combined',{stream:accessLogStram}));
+//app.use(morgan('combined',{stream:accessLogStram}));
 
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -113,7 +113,7 @@ app.use((error, req, res, next) => {
 mongoose
   .connect(
     MONGODB_URI,
-    {// this bracket can be ignored its just to fix some error
+    {// this bracket can be ignored its just to fix some ignorable errors
       useNewUrlParser: true,
       useUnifiedTopology: true, 
       writeConcern: {
